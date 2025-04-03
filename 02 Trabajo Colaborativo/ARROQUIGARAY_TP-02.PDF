@@ -1,0 +1,94 @@
+1) Contestar las siguientes preguntas utilizando las guías y documentación proporcionada
+
+• ¿Qué es GitHub?
+Es un software de control de versiones, diseñado por Linus Torvalds.
+
+• ¿Cómo crear un repositorio en GitHub?
+En la página oficial de Github(https://github.com/) se deber ir a "New" o ir a la url "https://github.com/new" para crear un nuevo repositorio.
+
+• ¿Cómo crear una rama en Git?
+Ingresar el comando git branch segido del nombre elegido para la nueva rama tal que "git branch test1".
+
+• ¿Cómo cambiar a una rama en Git?
+Ingresar el comando git checkout test1.
+
+• ¿Cómo fusionar ramas en Git?
+Se debe dirigir a la rama deseada por ejemplo "Main" y hacer git merge test1 para traer los cambios de la rama test1 a main.
+
+• ¿Cómo crear un commit en Git?
+Se ingresa el comando git commit -m "Mensaje de prueba".
+
+• ¿Cómo enviar un commit a GitHub?
+Se usa el comando git push.
+
+• ¿Qué es un repositorio remoto?
+Es una versión de un repositorio guardada en un sitio en linea, por ejemplo Github.
+
+• ¿Cómo agregar un repositorio remoto a Git?
+Se usa el comando git remote add origin "url del repositorio remoto".
+
+• ¿Cómo empujar cambios a un repositorio remoto?
+se ingresa el siguiente comando para empujar los cambios hechos git add . && git commit -m "Mensaje del commit" && git push origin main.
+
+• ¿Cómo tirar de cambios de un repositorio remoto?
+Se ingresa el comando git pull.
+
+• ¿Qué es un fork de repositorio?
+Es una copia de un repositorio, creado en una cuenta distinta permitiendo aplicar cambios sin afectar al repositorio original
+
+• ¿Cómo crear un fork de un repositorio?
+Ingrear a Github, dirigirse al repositorio deseado y hacer click en la opción "FORK".
+
+• ¿Cómo enviar una solicitud de extracción (pull request) a un repositorio?
+En el repositorio dirigirse a la opción "Compare & pull request".
+
+• ¿Cómo aceptar una solicitud de extracción?
+En el repositorio original ir a la pestaña pull request, seleccionar la extracción deseada y hacer click en Merge pull request.
+
+• ¿Qué es un etiqueta en Git?
+Una etiqueta es un marcador de versiones en los commits.
+
+• ¿Cómo crear una etiqueta en Git?
+Con el comando git tag -a v1.0 -m 'v1.0'.
+
+• ¿Cómo enviar una etiqueta a GitHub?
+Con el comando git push origin v1.0-
+
+• ¿Qué es un historial de Git?
+El historial de Git es el registro de todos los commits realizados en un repositorio.
+
+• ¿Cómo ver el historial de Git?
+Con el comando git log.
+
+• ¿Cómo buscar en el historial de Git?
+Con este comando git log --grep="palabra_clave" y la palabra o commmit que se desee buscar.
+
+• ¿Cómo borrar el historial de Git?
+Con este comando rm -rf .git && git init, borra el directorio de git y lo vuelve a crear.
+
+• ¿Qué es un repositorio privado en GitHub?
+Un repositorio solo accesible para el propietario y usuarios con permisos.
+
+• ¿Cómo crear un repositorio privado en GitHub?
+Se crea un repositorio normal pero se selecciona la opcion de private en vez de public.
+
+• ¿Cómo invitar a alguien a un repositorio privado en GitHub?
+Ir a las opciones del repositorio y buscar la opcion Collaboratos para agregar a alguien.
+
+• ¿Qué es un repositorio público en GitHub?
+Un repositorio accesible a cualquier persona con una cuenta de Github u otra plataforma.
+
+• ¿Cómo crear un repositorio público en GitHub?
+Elegir la opción de public a la hora de crear el repositorio.
+
+• ¿Cómo compartir un repositorio público en GitHub?
+Se comparte enviando la url del repositorio por ejemplo https://github.com/Pitdog192/UTN-TUPaD-P1 .
+
+
+
+2) Realizar la siguiente actividad: 
+https://github.com/Pitdog192/tp2_programacion
+
+
+3) Realizar la siguiente actividad:
+HECHO https://github.com/Pitdog192/conflict-exercise
